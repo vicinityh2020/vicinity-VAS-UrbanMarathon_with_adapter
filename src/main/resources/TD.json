@@ -1,0 +1,289 @@
+{
+    "adapter-id": "adapter3.2.2",
+    "thing-descriptions":
+            [{
+                    "name": "VAS 3.2.2 - Urban Marathon",
+                    "type": "core:Service",
+                    "version": "0.0.1",
+                    "oid": "vas3.2.2",
+                    "properties": [
+                    {
+			    "pid": "push_measurement",
+			    "monitors": "adapters:OnOff",
+			    "read_link": {
+				"href": "/objects/{oid}/properties/{pid}",
+				"output": {
+				    "type": "object",
+				    "field": [
+				        {
+				            "name": "adapterId",
+				            "schema": {
+				                "type": "string"
+				            }
+				        },
+				        {
+				            "name": "userId",
+				            "schema": {
+				                "type": "string"
+				            }
+				        }
+				    ]
+				}
+			    },
+			    "write_link": {
+				"href": "/objects/{oid}/properties/{pid}",
+				"input": {
+				    "type": "object",
+				    "field": [
+				        {
+				            "name": "adapterId",
+				            "schema": {
+				                "type": "string"
+				            }
+				        },
+				        {
+				            "name": "userId",
+				            "schema": {
+				                "type": "string"
+				            }
+				        }
+				    ]
+				},
+				"output": {
+				    "type": "object",
+				    "field": [
+				        {
+				            "name": "success",
+				            "schema": {
+				                "type": "boolean"
+				            }
+				        }
+				    ]
+				}
+			    }
+			},
+			{
+			    "pid": "Register-user",
+			    "monitors": "adapters:OnOff",
+			    "read_link": {
+				"href": "/objects/{oid}/properties/{pid}",
+				"output": {
+				    "type": "object",
+				    "field": [
+				        {
+				            "name": "adapterId",
+				            "schema": {
+				                "type": "string"
+				            }
+				        },
+				        {
+				            "name": "userId",
+				            "schema": {
+				                "type": "string"
+				            }
+				        }
+				    ]
+				}
+			    },
+			    "write_link": {
+				"href": "/objects/{oid}/properties/{pid}",
+				"input": {
+				    "type": "object",
+				    "field": [
+				        {
+				            "name": "adapterId",
+				            "schema": {
+				                "type": "string"
+				            }
+				        },
+				        {
+				            "name": "userId",
+				            "schema": {
+				                "type": "string"
+				            }
+				        }
+				    ]
+				},
+				"output": {
+				    "type": "object",
+				    "field": [
+				        {
+				            "name": "success",
+				            "schema": {
+				                "type": "boolean"
+				            }
+				        }
+				    ]
+				}
+			    }
+			},
+			{
+			    "pid": "Get-rules",
+			    "monitors": "adapters:OnOff",
+			    "read_link": {
+				"href": "/objects/{oid}/properties/{pid}",
+				"output": {
+				    "type": "object",
+				    "field": [
+				        {
+				            "name": "adapterId",
+				            "schema": {
+				                "type": "string"
+				            }
+				        },
+				        {
+				            "name": "userId",
+				            "schema": {
+				                "type": "string"
+				            }
+				        }
+				    ]
+				}
+			    },
+			    "write_link": {
+				"href": "/objects/{oid}/properties/{pid}",
+				"input": {
+				    "type": "object",
+				    "field": [
+				        {
+				            "name": "adapterId",
+				            "schema": {
+				                "type": "string"
+				            }
+				        },
+				        {
+				            "name": "userId",
+				            "schema": {
+				                "type": "string"
+				            }
+				        }
+				    ]
+				},
+				"output": {
+				    "type": "object",
+				    "field": [
+				        {
+				            "name": "success",
+				            "schema": {
+				                "type": "boolean"
+				            }
+				        }
+				    ]
+				}
+			    }
+			},
+			{
+			    "pid": "user_ranking",
+			    "monitors": "adapters:OnOff",
+			    "read_link": {
+				"href": "/objects/{oid}/properties/{pid}",
+				"output": {
+				    "type": "object",
+				    "field": [
+				        {
+				            "name": "adapterId",
+				            "schema": {
+				                "type": "string"
+				            }
+				        },
+				        {
+				            "name": "userId",
+				            "schema": {
+				                "type": "string"
+				            }
+				        }
+				    ]
+				}
+			    },
+			    "write_link": {
+				"href": "/objects/{oid}/properties/{pid}",
+				"input": {
+				    "type": "object",
+				    "field": [
+				        {
+				            "name": "adapterId",
+				            "schema": {
+				                "type": "string"
+				            }
+				        },
+				        {
+				            "name": "userId",
+				            "schema": {
+				                "type": "string"
+				            }
+				        }
+				    ]
+				},
+				"output": {
+				    "type": "object",
+				    "field": [
+				        {
+				            "name": "success",
+				            "schema": {
+				                "type": "boolean"
+				            }
+				        }
+				    ]
+				}
+			    }
+			},
+			{
+			    "pid": "get_points_for_user",
+			    "monitors": "adapters:OnOff",
+			    "read_link": {
+				"href": "/objects/{oid}/properties/{pid}",
+				"output": {
+				    "type": "object",
+				    "field": [
+				        {
+				            "name": "adapterId",
+				            "schema": {
+				                "type": "string"
+				            }
+				        },
+				        {
+				            "name": "userId",
+				            "schema": {
+				                "type": "string"
+				            }
+				        }
+				    ]
+				}
+			    },
+			    "write_link": {
+				"href": "/objects/{oid}/properties/{pid}",
+				"input": {
+				    "type": "object",
+				    "field": [
+				        {
+				            "name": "adapterId",
+				            "schema": {
+				                "type": "string"
+				            }
+				        },
+				        {
+				            "name": "userId",
+				            "schema": {
+				                "type": "string"
+				            }
+				        }
+				    ]
+				},
+				"output": {
+				    "type": "object",
+				    "field": [
+				        {
+				            "name": "success",
+				            "schema": {
+				                "type": "boolean"
+				            }
+				        }
+				    ]
+				}
+			    }
+			}],
+                    "actions": [],
+                    "events": []
+                }
+            ]
+}

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: VCNT_adapter_UrbanMarathon
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: mkoutli
+Implementation-Vendor-Id: vicinity.vas
+Build-Jdk: 1.8.0_191
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/VCNT_adapter_UrbanMarathon
+Created-By: Maven Integration for Eclipse
+
